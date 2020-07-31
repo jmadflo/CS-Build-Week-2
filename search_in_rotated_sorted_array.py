@@ -8,6 +8,7 @@ class Solution(object):
         left = 0
         right = len(nums)-1
         pivot = -1
+        # first find the pivot
         while left < right:
             if nums[left] > nums[left+1]:
                 pivot = left
