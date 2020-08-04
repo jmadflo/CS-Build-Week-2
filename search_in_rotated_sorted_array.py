@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: int
         """
         left = 0
-        right = len(nums)-1
+        right = len(nums) - 1
         pivot = -1
         # first find the pivot
         while left < right:
