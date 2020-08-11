@@ -26,4 +26,4 @@ class Solution(object):
             return left_nums.index(target)
         if target in right_nums:
             return len(left_nums) + right_nums.index(target)
-        return -1
+        return -1 
