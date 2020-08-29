@@ -4,11 +4,11 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        sorted_strs = {}
+        sorted_strings = {}
         for s in strs:
             key = ''.join(sorted(s))
-            if key in sorted_strs:
-                sorted_strs[key].append(s)
+            if key in sorted_strings:
+                sorted_strings[key].append(s)
             else:
-                sorted_strs[key] = [s]
-        return sorted_strs.values()
+                sorted_strings[key] = [s]
+        return sorted_strings.values()
